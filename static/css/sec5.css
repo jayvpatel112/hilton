@@ -1,0 +1,113 @@
+
+#home-5[_ngcontent-gan-c37] {
+    background-image: url(/assets/home-5-back.png);
+    padding: 60px 5%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+* {
+    font-family: Open Sans,sans-serif;
+}
+
+div {
+    display: block;
+}
+
+
+.home-5-container[_ngcontent-gan-c37] {
+    margin: auto;
+    max-width: 1360px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "deal img";
+    justify-items: center;
+    align-items: center;
+    grid-gap: 75px;
+    gap: 75px;
+}
+
+
+.home-5-container[_ngcontent-gan-c37] .deal-container[_ngcontent-gan-c37] {
+    grid-area: deal;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 50px;
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    aspect-ratio: 1/1;
+    box-sizing: border-box;
+    box-shadow: 5px 8px 20px 9px #00000040;
+}
+
+.home-5-container[_ngcontent-gan-c37] .deal-container[_ngcontent-gan-c37] > div[_ngcontent-gan-c37] {
+    display: grid;
+    grid-template-rows: repeat(4,auto);
+    justify-items: center;
+    text-align: center;
+    grid-gap: 15px;
+    gap: 15px;
+}
+
+
+.home-5-title-text[_ngcontent-gan-c37] {
+    font-size: 40px;
+    line-height: 1.2;
+}
+
+
+.home-5-container[_ngcontent-gan-c37] .cta-button[_ngcontent-gan-c37] {
+    all: unset;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;
+    background: #000;
+    padding: 16px 50px;
+    color: #fff;
+}
+.button {
+    appearance: auto;
+    writing-mode: horizontal-tb !important;
+    font-style: ;
+    font-variant-ligatures: ;
+    font-variant-caps: ;
+    font-variant-numeric: ;
+    font-variant-east-asian: ;
+    font-weight: ;
+    font-stretch: ;
+    font-size: ;
+    font-family: ;
+    text-rendering: auto;
+    color: buttontext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    margin: 0em;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+
+
+.home-5-container[_ngcontent-gan-c37] img[_ngcontent-gan-c37] {
+    grid-area: img;
+    width: 100%;
+    object-fit: cover;
+    max-width: 560px;
+    box-shadow: 0 0 0 15px #fff;
+    border-radius: 20px;
+}
